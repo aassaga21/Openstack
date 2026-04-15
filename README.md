@@ -71,6 +71,7 @@ OpenStack est une plateforme cloud open-source qui permet de déployer et gérer
 ![image](https://hackmd.io/_uploads/Bkqame2nZg.png)
 
 > Vous pouvez prendre la version de votre choix
+
 ![image](https://hackmd.io/_uploads/ry4vgrnnbe.png)
 ![image](https://hackmd.io/_uploads/Syndgrh2Zg.png)
 ![image](https://hackmd.io/_uploads/H1V1Nen2We.png)
@@ -440,6 +441,7 @@ OpenStack est une plateforme cloud open-source qui permet de déployer et gérer
 ![image](https://hackmd.io/_uploads/Bkqame2nZg.png)
 
 > Vous pouvez prendre la version de votre choix
+
 ![image](https://hackmd.io/_uploads/ry4vgrnnbe.png)
 ![image](https://hackmd.io/_uploads/Syndgrh2Zg.png)
 ![image](https://hackmd.io/_uploads/H1V1Nen2We.png)
