@@ -59,7 +59,7 @@ OpenStack est une plateforme cloud open-source qui permet de déployer et gérer
 
 > **Important :** La virtualisation imbriquée (nested virtualization) doit être activée si vous installez sur une VM.
 
-### 2.2 — Création de la machine virtuelle ubuntu 25.04sur VMware Worstation
+### 2.2 — Création de la machine virtuelle ubuntu 25.04 sur VMware Worstation
 
 [Télécharger Ubuntu Desktop](https://ubuntu.com/download/desktop)
 
@@ -76,7 +76,7 @@ OpenStack est une plateforme cloud open-source qui permet de déployer et gérer
 ![image](https://hackmd.io/_uploads/Bk7b27T2Zx.png)
 ![image](https://hackmd.io/_uploads/Bkuf27a2bl.png)
 
-### 2.3 — Configuration de la machine virtuelle ubuntu 25.04sur VMware Worstation
+### 2.3 — Configuration de la machine virtuelle ubuntu 25.04 sur VMware Worstation
 
 ![image](https://hackmd.io/_uploads/Sk98nm6nZl.png)
 ![image](https://hackmd.io/_uploads/SysPhQTnWx.png)
