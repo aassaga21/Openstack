@@ -357,6 +357,77 @@ wget https://cloud.debian.org/images/cloud/bookworm/latest/debian-12-genericclou
 
 ![image](https://hackmd.io/_uploads/S1CS17phWl.png)
 ![image](https://hackmd.io/_uploads/r1ks-7pn-g.png)
+![image](https://hackmd.io/_uploads/Hkjw8IRn-g.png)
+
+### 8.3 - Créer une paire de clés SSH
+![image](https://hackmd.io/_uploads/HkWqxqR3-l.png)
+![image](https://hackmd.io/_uploads/HJCZW9C2-l.png)
+![image](https://hackmd.io/_uploads/rJNjbq0nWx.png)
+
+### 8.4 - Créer un réseau (Network)
+![image](https://hackmd.io/_uploads/r1jqMcR2Zl.png)
+![image](https://hackmd.io/_uploads/S1xHI7cA2Wx.png)
+![image](https://hackmd.io/_uploads/SJcum9C3Zg.png)
+![image](https://hackmd.io/_uploads/HJD8r50hZl.png)
+![image](https://hackmd.io/_uploads/ByQ_Sq0nbx.png)
+
+### 8.5 - Créer un Router
+![image](https://hackmd.io/_uploads/Hk4CS5R2bx.png)
+![image](https://hackmd.io/_uploads/BJK389A2Zg.png)
+![image](https://hackmd.io/_uploads/HJcFPc02bx.png)
+![image](https://hackmd.io/_uploads/SyI0DqRhZe.png)
+![image](https://hackmd.io/_uploads/BkJbd9AnZe.png)
+
+### 8.6 - Créer un Security Group
+![image](https://hackmd.io/_uploads/SJsO_5C3Wl.png)
+![image](https://hackmd.io/_uploads/ByhdF5AnZg.png)
+![image](https://hackmd.io/_uploads/H1u6tqC2Wx.png)
+![image](https://hackmd.io/_uploads/BJVo5502Wx.png)
+![image](https://hackmd.io/_uploads/SyRJscAn-x.png)
+![image](https://hackmd.io/_uploads/r1Vfj9A3bx.png)
+
+### 8.7 - Vérifier un Flavor
+![image](https://hackmd.io/_uploads/rkA9scCh-l.png)
+
+### 8.6 - Créer l'instance Debian
+![image](https://hackmd.io/_uploads/SkfRUIA2We.png)
+![image](https://hackmd.io/_uploads/B1x3l203Wx.png)
+![image](https://hackmd.io/_uploads/BJ1Hb2Cnbl.png)
+![image](https://hackmd.io/_uploads/Sko8-3RhWe.png)
+![image](https://hackmd.io/_uploads/HJX5ZhAnWg.png)
+![image](https://hackmd.io/_uploads/Hy4pbnRhZe.png)
+![image](https://hackmd.io/_uploads/B1EEM3Ch-e.png)
+![image](https://hackmd.io/_uploads/BJNUfn03Zl.png)
+![image](https://hackmd.io/_uploads/SkIDzh0nZg.png)
+![image](https://hackmd.io/_uploads/ryxKM302Wx.png)
+![image](https://hackmd.io/_uploads/Byeqz3A3We.png)
+![image](https://hackmd.io/_uploads/HkGiG30h-x.png)
+![image](https://hackmd.io/_uploads/Skkhf3R2bl.png)
+![image](https://hackmd.io/_uploads/HkPBX2AnWl.png)
+
+### 8.7 - Assigner une Floating IP pour y accéder
+![image](https://hackmd.io/_uploads/rJ7mQnC2-x.png)
+![image](https://hackmd.io/_uploads/HyGS4h0hZe.png)
+![image](https://hackmd.io/_uploads/HJ9PN2A2Zx.png)
+![image](https://hackmd.io/_uploads/S1M2E2R2Ze.png)
+![image](https://hackmd.io/_uploads/HkmSH3C3be.png)
+
+### 8.9 - Se connecter à la console de la VM
+![image](https://hackmd.io/_uploads/BJylFnC3We.png)
+![image](https://hackmd.io/_uploads/BkNwK3R2Wg.png)
+
+### 8.8 - Se connecter en SSH à la VM
+
+```bash
+find / -name "my-key.pem" 2>/dev/null
+chmod 600 /home/alexandra/Téléchargements/my-key.pem
+ssh -i /home/alexandra/Téléchargements/my-key.pem debian@10.20.20.104
+ssh -i /home/alexandra/Downloads/my-key.pem debian@<FLOATING_IP>
+```
+![image](https://hackmd.io/_uploads/Hyurv3A2-g.png)
+
+> L'utilisateur par défaut des images cloud Debian est **`debian`**.
+
 
 
 ---
